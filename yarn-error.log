@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/smokey/.nvm/versions/node/v14.15.4/bin/node /Users/smokey/.nvm/versions/node/v14.15.4/bin/yarn add express aws-sdk supabase-js shelljs
+
+PATH: 
+  /Users/smokey/.nvm/versions/node/v14.15.4/bin:/Users/smokey/.rvm/gems/ruby-2.7.0/bin:/Users/smokey/.rvm/gems/ruby-2.7.0@global/bin:/Users/smokey/.rvm/rubies/ruby-2.7.0/bin:/usr/local/opt/imagemagick@6/bin:/Users/smokey/.cargo/bin:~/.local/bin:/Users/smokey/Downloads/google-cloud-sdk/bin:/Users/smokey/.rbenv/shims:/Users/smokey/.nvm/versions/node/v14.15.4/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/smokey/.npm-global/bin:/Users/smokey/.cargo/bin:~/.local/bin:/Users/smokey/Downloads/google-cloud-sdk/bin:/Users/smokey/.rbenv/shims:/Users/smokey/.nvm/versions/node/v14.15.4/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/gcc_arm/gcc-arm-none-eabi-9-2020-q2-update/bin/:/Users/smokey/Library/Python/3.8/bin:/Users/smokey/.rvm/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/supabase-js: Not found
+      at Request.params.callback [as _callback] (/Users/smokey/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/smokey/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/smokey/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/smokey/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "deadname-daddy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
